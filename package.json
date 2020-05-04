@@ -1,0 +1,12 @@
+{
+  "name": "inline-caches",
+  "version": "1.0.0",
+  "description": "Test for inline caches",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/monomorphic.js && node src/polymorphic.js && node src/megamorphic.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shinja.dev@gmail.com",
+  "license": "MIT"
+}
