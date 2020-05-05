@@ -11,5 +11,5 @@ const p7 = { x: "x7", y: "y" };
 let payload = [p1, p2, p3, p4, p5, p6, p7];
 let base = payload.length - 1
 
-loop(payload, base)
+loop(payload, base, 'mono')
 

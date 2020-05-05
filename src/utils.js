@@ -4,13 +4,14 @@ const dispatch = (action, payload) => {
 
 const count = 1000 * 1000 * 1000;
 
-const loop = (payload, base) => {
-  console.time("engine");
+const loop = (payload, base, type) => {
+  const engine = `${type} engine`
+  console.time(engine);
   for (let i = 0; i < count; i++) {
     const p = payload[i & base];
     dispatch(p.x, p);
   }
-  console.timeEnd("engine");
+  console.timeEnd(engine);
 };
 
 module.exports = {

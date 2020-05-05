@@ -5,6 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/monomorphic.js && node src/polymorphic.js && node src/megamorphic.js",
+    "mono": "node src/monomorphic.js",
+    "poly": "node src/polymorphic.js",
+    "mega": "node src/megamorphic.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "shinja.dev@gmail.com",
