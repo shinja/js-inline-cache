@@ -1,14 +1,9 @@
 const dispatch = (action, payload) => {
+  payload.y.y.a
+  payload.y.y.b
+  payload.y.y.c
   payload.y.y.d
-  payload.y.y.d
-  payload.y.y.d
-  payload.y.y.d
-  payload.y.y.d
-  payload.y.y.d
-  payload.y.y.d
-  payload.y.y.d
-  payload.y.y.d
-  payload.y.y.d
+  payload.y.y.e
   return payload.y.y.d
 };
 
