@@ -1,9 +1,5 @@
 const dispatch = (action, payload) => {
-  const a = payload.y.y.a
-  const b = payload.y.y.b
-  const c = payload.y.y.c
-  const d = payload.y.y.d
-  const e = payload.y.y.e
+  const {a ,b ,c ,d , e} = payload.y.y
   a
   b
   c
