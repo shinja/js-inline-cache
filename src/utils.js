@@ -1,20 +1,25 @@
 const dispatch = (action, payload) => {
-  payload.y.y.a
-  payload.y.y.b
-  payload.y.y.c
-  payload.y.y.d
-  payload.y.y.e
-  payload.y.y.a
-  payload.y.y.b
-  payload.y.y.c
-  payload.y.y.d
-  payload.y.y.e
-  payload.y.y.a
-  payload.y.y.b
-  payload.y.y.c
-  payload.y.y.d
-  payload.y.y.e
-  return payload.y.y.d
+  const a = payload.y.y.a
+  const b = payload.y.y.b
+  const c = payload.y.y.c
+  const d = payload.y.y.d
+  const e = payload.y.y.e
+  a
+  b
+  c
+  d
+  e
+  a
+  b
+  c
+  d
+  e
+  a
+  b
+  c
+  d
+  e
+  return d
 };
 
 const count = 1000 * 1000 * 1000;
